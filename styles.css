@@ -1,0 +1,42 @@
+body {
+    color: #121212;
+    text-align: center;
+}
+
+img {
+    width: 380px;
+    border: 3px solid black;
+}
+
+.italicize {
+    font-style: italic;
+    font-weight: 550;
+    width: 380px;
+    margin: 12px auto;
+}
+
+.input, .btn {
+    box-sizing: border-box;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0 0 5px;
+    width: 240px;
+    padding: 10px;
+}
+
+
+.btn {
+    color: azure;
+    background-color: #121212;
+    margin-block-start: 10px;
+}
+
+a {
+    color: #121212;
+}
+
+footer {
+    padding: 10px 0 20px 0;
+}
