@@ -4,14 +4,24 @@ body {
 }
 
 img {
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     border: 3px solid black;
+}
+
+a {
+    color: #121212;
+}
+
+footer {
+    padding: 10px 0 20px 0;
 }
 
 .italicize {
     font-style: italic;
     font-weight: 550;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     margin: 12px auto;
 }
 
@@ -22,7 +32,8 @@ img {
     font-weight: 600;
     font-size: 16px;
     margin: 20px 0 0 5px;
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     padding: 10px;
 }
 
@@ -31,12 +42,4 @@ img {
     color: azure;
     background-color: #121212;
     margin-block-start: 10px;
-}
-
-a {
-    color: #121212;
-}
-
-footer {
-    padding: 10px 0 20px 0;
 }
